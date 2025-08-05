@@ -7,7 +7,103 @@
   </head>  
   <body>
      <h1>Hello Mahfooz</h1>
-     
+     <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+     <h2>Lorem ipsum dolor sit amet.</h2>
+     <p>Lorem, ipsum dolor.</p>
+
+
+     <!-- generate using emmit syntex help  -->
+     <!-- #page>div.logo+ul#navigation>li*5>a{Item $} -->
+
+     <div id="page">
+      <div class="logo"></div>
+      <ul id="navigation">
+         <li><a href="">item1</a></li>
+         <li><a href="">item2</a></li>
+         <li><a href="">item3</a></li>
+         <li><a href="">item4</a></li>
+         <li><a href="">item5</a></li>
+      </ul>
+     </div>
+
+     <!-- div>ul>li -->
+      <div>
+         <ul>
+            <li>Hello</li>
+         </ul>
+      </div>
+
+      <!-- div>ul>li*5 -->
+      <div>
+         <ul>
+            <li>Hello1</li>
+            <li>Hello2</li>
+            <li>Hello3</li>
+            <li>Hello5</li>
+            <li>Hello6</li>
+         </ul>
+      </div>
+
+
+      <!-- Syblings -->
+      <!-- div+p+bq -->
+
+      <div></div>
+      <p></p>
+      <blockquote></blockquote>
+
+
+      <!-- div+div>p>span+em  -->
+       <!-- climb up -->
+       <div></div>
+       <div>
+         <p><span></span><em></em></p>
+       </div>
+
+
+       <!-- div+div>p>span+em^bq -->
+        <!-- ^ each xor move one level -->
+         <div></div>
+         <div>
+            <p><span></span><em></em></p>
+            <blockquote></blockquote>
+         </div>
+
+         <!-- Grouping -->
+          <!-- div>(header>ul>li*5>a)+footer>p -->
+         <div>
+            <header>
+               <ul>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+                  <li><a href=""></a></li>
+               </ul>
+            </header>
+            <footer>
+               <p></p>
+            </footer>
+         </div>
+
+
+      <!-- (div>dl>(dt+dd)*3)+footer>p -->
+       <div>
+         <dl>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+            <dt></dt>
+            <dd></dd>
+         </dl>
+       </div>
+       <footer>
+         <p></p>
+       </footer>
+      
+      
+
   </body>
 </html>
 <!-- <!DOCTYPE html>
