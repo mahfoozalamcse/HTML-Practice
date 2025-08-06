@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table concept</title>
+    <style>
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: aqua;
+        }
+        td{
+            background-color: rgb(179, 157, 157);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption> HTML Table Full Concept Example</caption>
+
+       <thead>
+        <tr> 
+          <th rowspan="2">ID</th>
+          <th rowspan="2">Name</th>
+          <th rowspan="2">Cource</th>
+          <th rowspan="2">Marks</th>
+         
+       </tr>
+       </thead>
+        
+      <tbody>
+         <tr>
+           <td>101</td>
+           <td>Mahfooz</td>
+           <td>Java</td>
+           <td>96</td>
+        </tr>
+
+        <tr>
+                <td>102</td>
+                <td>Jas</td>
+                <td>CSS</td>
+                <td>90</td>
+        </tr>
+         <tr>
+                <td>103</td>
+                <td>Jazz</td>
+                <td>CSS</td>
+                <td>90</td>
+        </tr>
+         <tr>
+                <td>104</td>
+                <td>Jasmin</td>
+                <td>CSS</td>
+                <td>90</td>
+        </tr>
+         <tr>
+                <td>105</td>
+                <td>Rj</td>
+                <td>CSS</td>
+                <td>90</td>
+        </tr>
+      </tbody>
+
+       <tfoot>
+            <tr>
+                <td colspan="3">Total Students</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
